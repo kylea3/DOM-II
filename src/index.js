@@ -62,3 +62,8 @@ contDest.addEventListener('mouseenter', evt => {
 contDest.addEventListener('mouseleave', evt => {
     evt.target.style.backgroundColor = 'white';
 })
+
+navLinks[0].addEventListener('click', evt => {
+    evt.preventDefault();
+    console.log(`evt prevented`);
+})
